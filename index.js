@@ -4,7 +4,7 @@ const Team = require("./team.js");
 // Requiring the filesystem module
 const fs = require("fs");
 
-// creating and storing a new team object
+// creating and storing a new team object (this will be applied to every new coder created)
 const team = new Team("NewProject");
 
 // read the file input from members.txt
